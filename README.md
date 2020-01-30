@@ -178,13 +178,13 @@ Example:
 ```objc
 [self.bridge callHandler:@"showAlert" data:@"Hi from ObjC to JS!"];
 [self.bridge callHandler:@"getCurrentPageUrl" data:nil responseCallback:^(id responseData) {
-	NSLog(@"Current UIWebView page URL is: %@", responseData);
+	NSLog(@"Current page URL is: %@", responseData);
 }];
 ```
 
 #### `[bridge setWebViewDelegate:(id)webViewDelegate]`
 
-Optionally, set a `WKNavigationDelegate/UIWebViewDelegate` if you need to respond to the [web view's lifecycle events](https://developer.apple.com/reference/uikit/uiwebviewdelegate).
+Optionally, set a `WKNavigationDelegate` if you need to respond to the [web view's lifecycle events](https://developer.apple.com/reference/uikit).
 
 ##### `[bridge disableJavscriptAlertBoxSafetyTimeout]`
 
