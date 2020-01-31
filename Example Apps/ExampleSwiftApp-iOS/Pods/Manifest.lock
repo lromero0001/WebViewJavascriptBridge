@@ -1,5 +1,5 @@
 PODS:
-  - WebViewJavascriptBridge (6.0.2)
+  - WebViewJavascriptBridge (7.0.5)
 
 DEPENDENCIES:
   - WebViewJavascriptBridge (from `../..`)

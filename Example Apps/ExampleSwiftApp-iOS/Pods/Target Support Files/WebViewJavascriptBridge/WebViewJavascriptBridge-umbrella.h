@@ -2,7 +2,6 @@
 #import <UIKit/UIKit.h>
 #endif
 
-#import "WebViewJavascriptBridge.h"
 #import "WebViewJavascriptBridgeBase.h"
 #import "WKWebViewJavascriptBridge.h"
 
